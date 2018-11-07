@@ -1,0 +1,135 @@
+#box {
+  width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+}
+.header .shortcut {
+  display: flex;
+  justify-content: space-between;
+}
+.header .shortcut .shortcut_ul {
+  display: flex;
+}
+.header .shortcut .shortcut_ul li {
+  line-height: 30px;
+  padding: 0 8px;
+  position: relative;
+}
+.header .shortcut .shortcut_ul li a {
+  font-size: 12px;
+  color: #a4a4a4;
+}
+.header .shortcut .shortcut_ul li a:hover {
+  color: #ca151d;
+}
+.header .shortcut .shortcut_ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 10px;
+  width: 1px;
+  top: 10px;
+  background: #a4a4a4;
+  display: block;
+}
+.header .shortcut .shortcut_ul li:first-child {
+  padding-left: 0;
+}
+.header .shortcut .shortcut_ul li:first-child:before {
+  display: none;
+}
+.header .layout {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header .layout .layout_left {
+  display: inline-block;
+}
+.header .layout .layout_left .logo {
+  display: inline-block;
+  margin-right: 40px;
+}
+.header .layout .layout_left .logo a {
+  display: inline-block;
+  height: 50px;
+}
+.header .layout .layout_left .nav {
+  display: inline-block;
+}
+.header .layout .layout_left .nav ul {
+  display: flex;
+}
+.header .layout .layout_left .nav ul li {
+  line-height: 40px;
+  margin-right: 20px;
+  position: relative;
+}
+.header .layout .layout_left .nav ul li:hover a {
+  color: #ca151d;
+}
+.header .layout .layout_left .nav ul li:hover:before {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 5px;
+  width: 100%;
+  height: 2px;
+  background: #ca151d;
+}
+.header .layout .layout_left .nav ul li a {
+  color: black;
+}
+.header .layout .layout_right {
+  display: inline-block;
+  position: relative;
+}
+.header .layout .layout_right form {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+}
+.header .layout .layout_right form .layout_text {
+  width: 299px;
+  height: 30px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.header .layout .layout_right form .layout_submit {
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 20px;
+  height: 33px;
+  border: 0;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  background: url(../images/icon-common.png);
+  background-position: 0 -21px;
+  cursor: pointer;
+}
+
+.banner {
+  height: 450px;
+  width: 100%;
+  background: yellow;
+}
+
+.link {
+  height: 357px;
+  width: 100%;
+  background: green;
+}
+
+.footer {
+  height: 101px;
+  width: 100%;
+  background: blue;
+}

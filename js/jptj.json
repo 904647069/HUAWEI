@@ -1,0 +1,238 @@
+[
+    {
+        "title": "HUAWEI MateBook X",
+        "desc": "最高直降1300元",
+        "price": 8688,
+        "src": "images/jptj1.png",
+        "class": "mianxi"
+    },
+    {
+        "title": "荣耀手表魔法系列",
+        "desc": "9元订金抵59 赠耳机",
+        "price": 899,
+        "class": "shoufa"
+    },
+    {
+        "title": "华为平板 M5 青春版",
+        "desc": "订金9元抵159",
+        "price": 1899,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀Note10",
+        "desc": "赠价值248元豪华礼包",
+        "price": 2699
+    },
+    {
+        "title": "华为无线充电器",
+        "desc": "支持Mate 20 Pro及iPhone X系列充电",
+        "price": 99,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀MagicBook",
+        "desc": "最高订金100抵400 赠大礼包",
+        "price": 4999,
+        "class": "mianxi"
+    },
+    {
+        "title": "HUAWEI MateBook D",
+        "desc": "赠双肩包",
+        "price": 6288
+    },
+    {
+        "title": "华为畅享平板",
+        "desc": "10.1英寸大屏",
+        "price": 1299,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀Waterplay 8英寸",
+        "desc": "防水防尘板",
+        "price": 1499,
+        "class": "shoufa"
+    },
+    {
+        "title": "华为AI音箱",
+        "desc": "丹拿音质 深纹识别",
+        "price": 399,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀路由X2",
+        "desc": "新品首发赠礼品",
+        "price": 149,
+        "class": "shoufa"
+    },
+    {
+        "title": "华为儿童手表 3 Pro",
+        "desc": "4G全网通 高清拍照",
+        "price": 988,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀9i",
+        "desc": "最高优惠200",
+        "price": 1299,
+        "class": "baokuan"
+    },
+    {
+        "title": "HUAWEI MateBook E",
+        "desc": "2k高清触摸屏",
+        "price": 4288,
+        "class": "mianxi"
+    },
+    {
+        "title": "荣耀平板5",
+        "desc": "10.1英寸全高清屏",
+        "price": 1299,
+        "class": "shoufa"
+    },
+    {
+        "title": "荣耀手环4",
+        "desc": "爆款新品放量购",
+        "price": 199,
+        "class": "shoufa"
+    },
+    {
+        "title": "荣耀智能体脂称",
+        "desc": "限时优惠20元",
+        "price": 129,
+        "class": "tehui"
+    },
+    {
+        "title": "HUAWEI WATCH GT",
+        "desc": "订金8元抵108元+3期免息",
+        "price": 1288,
+        "class": "xinpin"
+    },
+    {
+        "title": "华为备咖存储",
+        "desc": "1T大容量",
+        "price": 699,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀畅玩7C",
+        "desc": "优惠100",
+        "price": 799
+    },
+    {
+        "title": "华为智能体脂称",
+        "desc": "",
+        "price": 169
+    },
+    {
+        "title": "荣耀手环3",
+        "desc": "50米防水 专业睡眠检测",
+        "price": 129,
+        "class": "baokuan"
+    },
+    {
+        "title": "HUAWEI FreeBuds 无线耳机",
+        "desc": "",
+        "price": 799
+    },
+    {
+        "title": "荣耀畅玩手环A2",
+        "desc": "直降20元仅售129",
+        "price": 129,
+        "class": "zhijiang"
+    },
+    {
+        "title": "华为手环 B5",
+        "desc": "限量赠配件礼包",
+        "price": 999,
+        "class": "baokuan"
+    },
+    {
+        "title": "荣耀路由2S",
+        "desc": "4颗信号放大器 信号更穿墙",
+        "price": 199,
+        "class": "xinpin"
+    },
+    {
+        "title": "华为全景相机",
+        "desc": "360度照片/视频",
+        "price": 499,
+        "class": "baokuan"
+    },
+    {
+        "title": "荣耀WaterPlay",
+        "desc": "防水影音平板",
+        "price": 1699,
+        "class": "remai"
+    },
+    {
+        "title": "HUAWEI WATCH 2 Pro",
+        "desc": "手机手表共享1个号码",
+        "price": 2238
+    },
+    {
+        "title": "荣耀路由2",
+        "desc": "双网双通 双频优选",
+        "price": 179,
+        "class": "remai"
+    },
+    {
+        "title": "华为畅享 MAX",
+        "desc": "大屏大视界",
+        "price": 1999,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀心晴耳机",
+        "desc": "心率智能耳机",
+        "price": 129,
+        "class": "xinpin"
+    },
+    {
+        "title": "HUAWEI MateBook X Pro",
+        "desc": "部分版本享6期免息",
+        "price": 10788
+    },
+    {
+        "title": "荣耀xSport 运动蓝牙耳机",
+        "desc": "限时直降20元",
+        "price": 229,
+        "class": "tehui"
+    },
+    {
+        "title": "华为运动心率蓝牙耳机",
+        "desc": "",
+        "price": 389,
+        "class": "zhijiang"
+    },
+    {
+        "title": "华为路由器WS5102",
+        "desc": "新品上市",
+        "price": 149
+    },
+    {
+        "title": "华为子母路由 Q1",
+        "desc": "哪些信号不好插哪里",
+        "price": 399
+    },
+    {
+        "title": "华为畅享8",
+        "desc": "赠配件大礼包",
+        "price": 1099
+    },
+    {
+        "title": "华为随行Wifi 2 畅享版",
+        "desc": "新品首销 赠流量卡",
+        "price": 309,
+        "class": "xinpin"
+    },
+    {
+        "title": "荣耀多口充电器SuperCharge快充版",
+        "desc": "直降20元",
+        "price": 129,
+        "class": "remai"
+    },
+    {
+        "title": "华为平板 M5 8.4英寸",
+        "desc": "赠保护套",
+        "price": 1799
+    }
+]

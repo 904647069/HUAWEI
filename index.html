@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>华为商城</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/font_906653_mivpmmshvwa/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="css/font_906653_0lgijum48d5/iconfont.css">
 </head>
 
 <body>
@@ -49,9 +50,16 @@
                         </li>
                     </ul>
                     <ul class="shortcut_right shortcut_ul">
-                        <li>
+                        <li class="shortcut_login">
                             <a href="#">请登录</a>
                             <a href="#">&nbsp;&nbsp;注册</a>
+                        </li>
+                        <li class="shortcut_uname">
+                            <span class="shortcut_uname_span"></span>
+                            <i class="iconfont icon-xiangxia" style="font-size: 12px"></i>
+                            <div class="shortcut_signout">
+                                <a href="#">注销</a>
+                            </div>
                         </li>
                         <li>
                             <a href="#">我的订单</a>
@@ -530,29 +538,847 @@
                             <span>公告</span>
                             <div class="sowingText">
                                 <ul>
-                                    <li>华为商城双11和双12微信支付立减和免单活动规则</li>
-                                    <li>农行专场的华为商城11.11钜惠，购机福利火热来袭！</li>
-                                    <li>华为商城发票暂停开票通知</li>
-                                    <li>HUAWEI Mate 20系列99元订金预订赢三亚往返机票活动中奖名单</li>
-                                    <li>11月华为商城以旧换新活动方案</li>
-                                    <li>华为商城双11和双12微信支付立减和免单活动规则</li>
+                                    <li>
+                                        <a href="#">华为商城双11和双12微信支付立减和免单活动规则</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">农行专场的华为商城11.11钜惠，购机福利火热来袭！</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">华为商城发票暂停开票通知</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HUAWEI Mate 20系列99元订金预订赢三亚往返机票活动中奖名单</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">11月华为商城以旧换新活动方案</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">华为商城双11和双12微信支付立减和免单活动规则</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
-                        <div></div>
+                        <div class="main_login_right_bottom">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span style="background-position-x: -240px;"></span>
+                                        优购码
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span style="background-position-x: -260px;"></span>
+                                        实名认证
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span style="background-position-x: -280px;"></span>
+                                        补购保障
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </li>
                 </ul>
+                <div class="main_login_bottom">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_login_bottom1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_login_bottom2.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_login_bottom3.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_login_bottom4.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hot_goods">
+                    <h2>热销单品</h2>
+                    <div>
+                        <div>
+                            <a href="#">
+                                <img src="images/rexiaodanpin1.png" alt="">
+                            </a>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin2.png" alt="">
+                                    <div class="good_title">荣耀10</div>
+                                    <p class="good_desc">最高优惠400 增377元礼包</p>
+                                    <p class="good_price">￥2299</p>
+                                    <img src="images/remai.png" alt="" class="tips">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin3.jpg" alt="">
+                                    <div class="good_title">HUAWEI P20</div>
+                                    <p class="good_desc">享6期免息 限量好礼</p>
+                                    <p class="good_price">￥3388</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin4.png" alt="">
+                                    <div class="good_title">荣耀V10</div>
+                                    <p class="good_desc">最高优惠900 增豪华礼包</p>
+                                    <p class="good_price">￥2099</p>
+                                    <img src="images/baokuan.png" alt="" class="tips">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin5.jpg" alt="">
+                                    <div class="good_title">HUAWEI P20 Pro</div>
+                                    <p class="good_desc">享6期免息 限量好礼</p>
+                                    <p class="good_price">￥4988</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanp6.jpg" alt="">
+                                    <div class="good_title">荣耀畅玩8C</div>
+                                    <p class="good_desc">标配版优惠50 赠好礼</p>
+                                    <p class="good_price">￥1099</p>
+                                    <img src="images/xinpin.png" alt="" class="tips">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin7.png" alt="">
+                                    <div class="good_title">华为畅享9 Plus</div>
+                                    <p class="good_desc">赠超值配件</p>
+                                    <p class="good_price">￥1499</p>
+                                    <img src="images/xinpin.png" alt="" class="tips">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin8.png" alt="">
+                                    <div class="good_title">荣耀8X Max</div>
+                                    <p class="good_desc">4+6GB送A2手环+数据线</p>
+                                    <p class="good_price">￥1499</p>
+                                    <img src="images/xinpin.png" alt="" class="tips">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/rexiaodanpin9.jpg" alt="">
+                                    <div class="good_title">华为畅享 MAX</div>
+                                    <p class="good_desc">赠超值配件</p>
+                                    <p class="good_price">￥1699</p>
+                                    <img src="images/xinpin.png" alt="" class="tips">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="jingPinTuiJian">
+                    <h2>精品推荐</h2>
+                    <div class="jptjBox">
+                        <ul>
+                        </ul>
+                        <div class="tip_left tip">
+                            <i class="iconfont icon-xiangzuo"></i>
+                        </div>
+                        <div class="tip_right tip">
+                            <i class="iconfont icon-xiangyou-copy"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_sowingMap">
+                    <ul class="main_sowingMap_picture">
+                        <li style="display: block">
+                            <a href="#">
+                                <img src="images/main_sowingMap.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap2.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap3.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap4.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap5.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap6.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap7.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/main_sowingMap8.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="main_sowingMap_tip">
+                        <li class="main_sowingMap_tip_current"></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="main_phone">
+                    <div class="main_header">
+                        <h2>手机</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">荣耀</a>
+                            </li>
+                            <li>
+                                <a href="#">HUAWEI P 系列</a>
+                            </li>
+                            <li>
+                                <a href="#">荣耀畅玩系列</a>
+                            </li>
+                            <li>
+                                <a href="#">HUAWEI Mate系列</a>
+                            </li>
+                            <li>
+                                <a href="#">HUAWEI nova系列</a>
+                            </li>
+                            <li>
+                                <a href="#">HUAWEI 麦芒系列</a>
+                            </li>
+                            <li>
+                                <a href="#">华为畅享系列</a>
+                            </li>
+                            <li>
+                                <a href="#">移动4G+专区</a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_phone_goods main_goods">
+                    </ul>
+                </div>
+                <div class="main_book">
+                    <div class="main_header">
+                        <h2>笔记本电脑</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">平板电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本配件</a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_book_goods main_goods">
+
+                    </ul>
+                </div>
+                <div class="main_pad">
+                    <div class="main_header">
+                        <h2>精品平板</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">平板电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本电脑</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记本配件</a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_pad_goods main_goods">
+
+                    </ul>
+                </div>
+                <div class="main_wear">
+                    <div class="main_header">
+                        <h2>智能穿戴</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">手环</a>
+                            </li>
+                            <li>
+                                <a href="#">手表</a>
+                            </li>
+                            <li>
+                                <a href="#">VR</a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_wear_goods main_goods">
+
+                    </ul>
+                </div>
+                <div class="main_smartHome">
+                    <div class="main_header">
+                        <h2>智能家居</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">路由器</a>
+                            </li>
+                            <li>
+                                <a href="#">子母/分布式路由</a>
+                            </li>
+                            <li>
+                                <a href="#">电力猫</a>
+                            </li>
+                            <li>
+                                <a href="#">随行wifi</a>
+                            </li>
+                            <li>
+                                <a href="#">电视盒子</a>
+                            </li>
+                            <li>
+                                <a href="#">照明</a>
+                            </li>
+                            <li>
+                                <a href="#">清洁</a>
+                            </li>
+                            <li>
+                                <a href="#">节能</a>
+                            </li>
+                            <li>
+                                <a href="#">环境</a>
+                            </li>
+                            <li>
+                                <a href="#">安防</a>
+                            </li>
+                            <li>
+                                <a href="#">健康</a>
+                            </li>
+                            <li>
+                                <a href="#">厨电</a>
+                            </li>
+                            <li>
+                                <a href="#">影音</a>
+                            </li>
+                            <li>
+                                <a href="#">卫浴</a>
+                            </li>
+                            <li>
+                                <a href="#">其他</a>
+                            </li>
+
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_smartHome_goods main_goods">
+
+                    </ul>
+                </div>
+                <div class="main_hotsale">
+                    <div class="main_header">
+                        <h2>热销配件</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">移动电源</a>
+                            </li>
+                            <li>
+                                <a href="#">耳机</a>
+                            </li>
+                            <li>
+                                <a href="#">充电器/线材</a>
+                            </li>
+                            <li>
+                                <a href="#">自拍杆/支架</a>
+                            </li>
+                            <li>
+                                <a href="#">音箱</a>
+                            </li>
+                            <li>
+                                <a href="#">取卡针</a>
+                            </li>
+                            <li>
+                                <a href="#">U盘/存储卡</a>
+                            </li>
+                            <li>
+                                <a href="#">摄像头/镜头</a>
+                            </li>
+                            <li>
+                                <a href="#">智能硬件</a>
+                            </li>
+                            <li>
+                                <a href="#">生活周边</a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_hotsale_goods main_goods">
+
+                    </ul>
+                </div>
+                <div class="main_brand">
+                    <div class="main_header">
+                        <h2>品牌配件</h2>
+                        <ul class="main_menu">
+                            <li>
+                                <a href="#">移动电源</a>
+                            </li>
+                            <li>
+                                <a href="#">耳机</a>
+                            </li>
+                            <li>
+                                <a href="#">充电器/线材</a>
+                            </li>
+                            <li>
+                                <a href="#">自拍杆/支架</a>
+                            </li>
+                            <li>
+                                <a href="#">音箱</a>
+                            </li>
+                            <li>
+                                <a href="#">取卡针</a>
+                            </li>
+                            <li>
+                                <a href="#">U盘/存储卡</a>
+                            </li>
+                            <li>
+                                <a href="#">摄像头/镜头</a>
+                            </li>
+                            <li>
+                                <a href="#">智能硬件</a>
+                            </li>
+                            <li>
+                                <a href="#">生活周边</a>
+                            </li>
+                        </ul>
+                        <div class="more">
+                            <a href="#">更多></a>
+                        </div>
+                    </div>
+                    <ul class="main_brand_goods main_goods">
+
+                    </ul>
+                </div>
+                <div class="xinrenhaoli">
+                    <a href="#" title="新人频道">
+                        <img src="images/xinrenhaoli.jpg" alt="">
+                    </a>
+                </div>
             </div>
         </div>
         <div class="link">
-            <div class="container"></div>
+            <div class="container">
+                <div class="link_top">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i style="background-position: 0 -151px"></i>
+                                百强企业 品质保证
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i style="background-position: -94px -151px"></i>
+                                7天退货 15天换货
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i style="background-position: -141px -151px"></i>
+                                11月11日全场包邮
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i style="background-position: -47px -151px"></i>
+                                1000家维修网点 全国联保
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link_bottom">
+                    <div class="service">
+                        <dl>
+                            <dt>
+                                <p class="line"></p>
+                                <p class="service_title">购物相关</p>
+                            </dt>
+                            <dd>
+                                <a href="#">购物指南</a>
+                            </dd>
+                            <dd>
+                                <a href="#">配送方式</a>
+                            </dd>
+                            <dd>
+                                <a href="#">支付方式</a>
+                            </dd>
+                            <dd>
+                                <a href="#">常见问题</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <p class="line"></p>
+                                <p class="service_title">保修与退还货</p>
+                            </dt>
+                            <dd>
+                                <a href="#">保修政策</a>
+                            </dd>
+                            <dd>
+                                <a href="#">退换货政策</a>
+                            </dd>
+                            <dd>
+                                <a href="#">退换货流程</a>
+                            </dd>
+                            <dd>
+                                <a href="#">保修状态查询</a>
+                            </dd>
+                            <dd>
+                                <a href="#">配件防伪查询</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <p class="line"></p>
+                                <p class="service_title">维修与技术支持</p>
+                            </dt>
+                            <dd>
+                                <a href="#">售后网点</a>
+                            </dd>
+                            <dd>
+                                <a href="#">预约维修</a>
+                            </dd>
+                            <dd>
+                                <a href="#">手机寄修</a>
+                            </dd>
+                            <dd>
+                                <a href="#">备件价格查询</a>
+                            </dd>
+                            <dd>
+                                <a href="#">上门服务</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <p class="line"></p>
+                                <p class="service_title">关于我们</p>
+                            </dt>
+                            <dd>
+                                <a href="#">公司介绍</a>
+                            </dd>
+                            <dd>
+                                <a href="#">华为商城简介</a>
+                            </dd>
+                            <dd>
+                                <a href="#">华为线下门店</a>
+                            </dd>
+                            <dd>
+                                <a href="#">荣耀线下门店</a>
+                            </dd>
+                            <dd>
+                                <a href="#">诚征英才</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <p class="line"></p>
+                                <p class="service_title">关注我们</p>
+                            </dt>
+                            <dd>
+                                <a href="#">新浪微博</a>
+                            </dd>
+                            <dd>
+                                <a href="#">腾讯微博</a>
+                            </dd>
+                            <dd>
+                                <a href="#">花粉俱乐部</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <p class="line"></p>
+                                <p class="service_title">友情链接</p>
+                                <div class="service_button">
+                                    <span class="service_button_left" style="background:#ccc">
+                                        <</span>
+                                            <span class="service_button_right">></span>
+                                </div>
+                            </dt>
+                            <div class="service_link_box">
+                                <ul class="service_box">
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">华为集团</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">华为CBG官网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">荣耀官网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">花粉俱乐部</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">网站地图</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">爱旅官网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">华为应用市场</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">万表网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">中商情报网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">刷机精灵</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">华为手机</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">优购物官网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">智能电视</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">UC浏览器</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">中关村商城</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">酷狗音乐</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">百信手机网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">卡宝宝网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">多特软件下载</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">同步助手</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">蜂鸟摄影网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">奇珀论坛</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">家居商城</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">拍鞋网商城</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">欧宝丽珠宝</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">寻购网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">亿智蘑菇</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">安卓市场</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">阿里巴巴生意经</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">手机大全</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">安卓软件园</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">卓大师刷机</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">智机论坛</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">电子产品世界</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">历趣网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">网购返利</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Apple110</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">91手机门户网</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">移动叔叔</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul class="service_box_son">
+                                            <li>
+                                                <a href="#">奥特莱斯</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">荣耀Magic</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">携程租车</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </dl>
+                    </div>
+                    <div class="callus">
+                        <p class="line"></p>
+                        <p class="phoneNumber">400-088-6888</p>
+                        <span>24小时客服热线（尽收市话费）</span>
+                        <a href="#">
+                            <i></i>在线客服
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="footer">
-            <div class="container"></div>
+            <div class="container">
+                <div class="flogo">
+                    <img src="images/flogo.png" alt="">
+                </div>
+                <p class="ftext">
+                    <a href="#">隐私声明</a>
+                    <a href="#">服务协议</a> Copyright © 2012-2018 华为软件技术有限公司 版权所有 保留一切权利
+                    <br> 公安备案
+                    <a href="#">苏公网安备32011402010009号</a> |
+                    <a href="#">苏ICP备17040376号-6</a> | 增值电信业务经营许可证：苏B2-20130048号|
+                </p>
+                <div class="fimg">
+                    <a href="#">
+                        <img src="images/footer1.jpg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/footer2.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/footer3.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="images/footer4.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login_mask login_box"></div>
+    <div class="login login_box">
+        <div class="login_header">
+            <button class="login_close">×</button>
+        </div>
+        <div class="login_bottom">
+            <p>账号登录</p>
+            <p class="login_error">
+                <i></i>帐号或密码错误，请重新输入。</p>
+            <input type="text" id="uname" placeholder="用户名">
+            <input type="password" id="upwd" placeholder="密码">
+            <button class="login_in">登录</button>
+            <div class="login_link">
+                <a href="#">注册账号</a>|
+                <a href="#">忘记密码？</a>
+            </div>
         </div>
     </div>
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/index.js"></script>
+<script src="js/jptj.js"></script>
+<script src="js/link_sowingMap.js"></script>
+<script src="js/login.js"></script>
 
 </html>

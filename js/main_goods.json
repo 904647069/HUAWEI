@@ -1,0 +1,464 @@
+{
+    "phone": [
+        {
+            "id": "phone1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "phone2",
+            "title": "华为畅享MAX",
+            "desc": "赠配件大礼包",
+            "price": 1699,
+            "class": "xinpin"
+        },
+        {
+            "id": "phone3",
+            "title": "荣耀9i",
+            "desc": "最高优惠200",
+            "price": 1199,
+            "class": "baokuan"
+        },
+        {
+            "id": "phone4",
+            "title": "HUAWEI nova 3",
+            "desc": "最高优惠400+6期免息",
+            "price": 2599,
+            "class": "zhijiang"
+        },
+        {
+            "id": "phone5",
+            "title": "荣耀Play",
+            "desc": "最高优惠400元 增豪华礼包",
+            "price": 1699,
+            "class": "baokuan"
+        },
+        {
+            "id": "phone6",
+            "title": "HUAWEI nova 3i",
+            "desc": "领劵立减",
+            "price": "暂无报价",
+            "class": "remai"
+        },
+        {
+            "id": "phone7",
+            "title": "荣耀9青春版",
+            "desc": "尊享版降600 加赠手环+数据线",
+            "price": 999,
+            "class": ""
+        },
+        {
+            "id": "phone8",
+            "title": "华为畅享8 Plus",
+            "desc": "领卷享优惠+赠好礼",
+            "price": 1699,
+            "class": ""
+        },
+        {
+            "id": "phone9",
+            "title": "HUAWEI 麦芒7",
+            "desc": "限量赠豪华配件礼包",
+            "price": 2399,
+            "class": "xinpin"
+        },
+        {
+            "id": "phone10",
+            "title": "荣耀畅玩7X",
+            "desc": "最高优惠300",
+            "price": 999,
+            "class": ""
+        },
+        {
+            "id": "phone11",
+            "title": "HUAWEI Mate 10",
+            "desc": "领劵享优惠+赠好礼",
+            "price": 3399,
+            "class": ""
+        },
+        {
+            "id": "phone12",
+            "title": "荣耀畅玩7C",
+            "desc": "优惠100",
+            "price": 799,
+            "class": ""
+        },
+        {
+            "id": "phone13",
+            "title": "华为畅享8e",
+            "desc": "领卷立减60+赠好礼",
+            "price": 999,
+            "class": ""
+        },
+        {
+            "id": "phone14",
+            "title": "华为畅玩7A",
+            "desc": "高配赠耳机+自拍杆",
+            "price": 699,
+            "class": ""
+        },
+        {
+            "id": "phone15",
+            "title": "华为畅享8e 青春",
+            "desc": "领劵享优惠+赠好礼",
+            "price": 799,
+            "class": ""
+        },
+        {
+            "id": "phone16",
+            "title": "华为畅享8",
+            "desc": "赠配件大礼包",
+            "price": 1299,
+            "class": ""
+        }
+    ],
+    "book": [
+        {
+            "id": "book1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "book2",
+            "title": "荣耀MagicBook",
+            "desc": "购机享6期免息",
+            "price": 4699,
+            "class": "mianxi"
+        },
+        {
+            "id": "book3",
+            "title": "HUAWEI MateBook D",
+            "desc": "11.11 最高直降400",
+            "price": 6188,
+            "class": ""
+        },
+        {
+            "id": "book4",
+            "title": "HUAWEI MateBook E",
+            "desc": "11.11 最高直降1000元",
+            "price": 3988,
+            "class": "mianxi"
+        },
+        {
+            "id": "book5",
+            "title": "HUAWEI MateBook X",
+            "desc": "限时直降1300元",
+            "price": 8688,
+            "class": "mianxi"
+        },
+        {
+            "id": "book6",
+            "title": "荣耀MagicBook 瑞龙版",
+            "desc": "高性能轻薄本",
+            "price": 3688,
+            "class": ""
+        },
+        {
+            "id": "book7",
+            "title": "HUAWEI MateBook X Pro",
+            "desc": "最高直降1300元",
+            "price": 8588,
+            "class": ""
+        },
+        {
+            "id": "book8",
+            "title": "荣耀MagicBook 星云紫",
+            "desc": "高颜值时尚轻薄本",
+            "price": 4999,
+            "class": "mianxi"
+        }
+    ],
+    "pad": [
+        {
+            "id": "pad1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "pad2",
+            "title": "华为平板 M5 青春版",
+            "desc": "仅限11.11 直降150元",
+            "price": 1749,
+            "class": "xinpin"
+        },
+        {
+            "id": "pad3",
+            "title": "荣耀Waterplay 8英寸",
+            "desc": "IP67级防尘防水",
+            "price": 1499,
+            "class": "shoufa"
+        },
+        {
+            "id": "pad4",
+            "title": "华为平板 M5 8.4英寸",
+            "desc": "11.11 最高直降389",
+            "price": 1699,
+            "class": ""
+        },
+        {
+            "id": "pad5",
+            "title": "华为畅享平板",
+            "desc": "11.11 最高直降80",
+            "price": 1219,
+            "class": "xinpin"
+        },
+        {
+            "id": "pad6",
+            "title": "荣耀Waterplay",
+            "desc": "11.11最高直降400 赠支架",
+            "price": 1499,
+            "class": "remai"
+        },
+        {
+            "id": "pad7",
+            "title": "华为平板M5 10.8英寸",
+            "desc": "11.11 最高直降290",
+            "price": 2198,
+            "class": ""
+        },
+        {
+            "id": "pad8",
+            "title": "华为平板M5 Pro",
+            "desc": "11.11 直降120元",
+            "price": 3368,
+            "class": ""
+        },
+        {
+            "id": "pad9",
+            "title": "荣耀畅玩平板2 9.6英寸",
+            "desc": "11.11最高直降300元",
+            "price": 999,
+            "class": "remai"
+        },
+        {
+            "id": "pad10",
+            "title": "荣耀畅玩平板2 8英寸",
+            "desc": "11.11最高直降300元",
+            "price": 899,
+            "class": ""
+        },
+        {
+            "id": "pad11",
+            "title": "华为平板 M3 青春版 10.1英寸",
+            "desc": "哈曼卡顿品质立体声",
+            "price": 1699,
+            "class": ""
+        },
+        {
+            "id": "pad12",
+            "title": "华为平板M3 青春版 8英寸",
+            "desc": "增强护眼功能",
+            "price": 1399,
+            "class": ""
+        }
+    ],
+    "wear": [
+        {
+            "id": "wear1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "wear2",
+            "title": "华为儿童手表 3 Pro",
+            "desc": "11.11 限时直降100",
+            "price": 888,
+            "class": "xinpin"
+        },
+        {
+            "id": "wear3",
+            "title": "华为手环B5",
+            "desc": "11.11 最高直降50",
+            "price": 949,
+            "class": "baokuan"
+        },
+        {
+            "id": "wear4",
+            "title": "荣耀手环4",
+            "desc": "爆款新品放量购",
+            "price": 199,
+            "class": "shoufa"
+        },
+        {
+            "id": "wear5",
+            "title": "HUAWEI WATCH 2 Pro",
+            "desc": "11.11 限时直降100",
+            "price": 2188,
+            "class": ""
+        },
+        {
+            "id": "wear6",
+            "title": "荣耀手环4 Running版",
+            "desc": "上新了！星耀黄",
+            "price": 99,
+            "class": "xinpin"
+        },
+        {
+            "id": "wear7",
+            "title": "HUAWEI WATCH 2",
+            "desc": "11.11 最高直降210",
+            "price": 1178,
+            "class": ""
+        }
+    ],
+    "smartHome": [
+        {
+            "id": "smartHome1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "smartHome2",
+            "title": "华为AI音箱",
+            "desc": "11.11 限时直降50",
+            "price": 349,
+            "class": "xinpin"
+        },
+        {
+            "id": "smartHome3",
+            "title": "华为子母路由 Q2",
+            "desc": "11.11 限时直降100",
+            "price": 699,
+            "class": ""
+        },
+        {
+            "id": "smartHome4",
+            "title": "华为备咖存储",
+            "desc": "新品上市 1T大容量",
+            "price": 599,
+            "class": "xinpin"
+        },
+        {
+            "id": "smartHome5",
+            "title": "荣耀路由2s（白色）",
+            "desc": "11.11 直降20元",
+            "price": 179,
+            "class": "xinpin"
+        },
+        {
+            "id": "smartHome6",
+            "title": "华为路由WS5200",
+            "desc": "11.11 限时直降70",
+            "price": 199,
+            "class": ""
+        },
+        {
+            "id": "smartHome7",
+            "title": "荣耀路由2",
+            "desc": "11.11限时直降30元",
+            "price": 169,
+            "class": "remai"
+        }
+    ],
+    "hotsale": [
+        {
+            "id": "hotsale1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "hotsale2",
+            "title": "华为智能体脂秤",
+            "desc": "   ",
+            "price": 169,
+            "class": ""
+        },
+        {
+            "id": "hotsale3",
+            "title": "华为主动降噪耳机3",
+            "desc": "3种降噪模式切换",
+            "price": 289,
+            "class": ""
+        },
+        {
+            "id": "hotsale4",
+            "title": "荣耀xSport 运动蓝牙耳机",
+            "desc": "双11直降50元",
+            "price": 199,
+            "class": "tehui"
+        },
+        {
+            "id": "hotsale5",
+            "title": "荣耀智能体脂秤",
+            "desc": "双11直降70元",
+            "price": 99,
+            "class": "tehui"
+        },
+        {
+            "id": "hotsale6",
+            "title": "华为运动心率蓝牙耳机R1 Pro（红色）",
+            "desc": "   ",
+            "price": 549,
+            "class": ""
+        },
+        {
+            "id": "hotsale7",
+            "title": "华为车载充电器快充版",
+            "desc": "支持9V2A快充",
+            "price": 49,
+            "class": "remai"
+        }
+    ],
+    "brand": [
+        {
+            "id": "brand1",
+            "title": "",
+            "desc": "",
+            "price": 0,
+            "class": ""
+        },
+        {
+            "id": "brand2",
+            "title": "北通G1手游游戏手柄",
+            "desc": "11.11 送收纳包",
+            "price": 269,
+            "class": "shoufa"
+        },
+        {
+            "id": "brand3",
+            "title": "华为智选读写台灯",
+            "desc": "直降10元",
+            "price": 159,
+            "class": "shoufa"
+        },
+        {
+            "id": "brand4",
+            "title": "科沃斯地宝小睿扫地机器人",
+            "desc": "11.11 直降800元",
+            "price": 799,
+            "class": "remai"
+        },
+        {
+            "id": "brand5",
+            "title": "海雀智能摄像头H1",
+            "desc": "成就多样智慧生活方式",
+            "price": 249,
+            "class": "remai"
+        },
+        {
+            "id": "brand6",
+            "title": "海备思高清无线投屏器",
+            "desc": "扫码投屏 4K高清",
+            "price": 229,
+            "class": "shoufa"
+        },
+        {
+            "id": "brand7",
+            "title": "55度moscup智能降温杯",
+            "desc": "直降71元",
+            "price": 228,
+            "class": ""
+        }
+    ]
+}

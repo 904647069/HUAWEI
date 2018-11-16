@@ -52,7 +52,7 @@
                     <ul class="shortcut_right shortcut_ul">
                         <li class="shortcut_login">
                             <a href="#">请登录</a>
-                            <a href="#">&nbsp;&nbsp;注册</a>
+                            <a href="html/register.html">&nbsp;&nbsp;注册</a>
                         </li>
                         <li class="shortcut_uname">
                             <span class="shortcut_uname_span"></span>
@@ -65,8 +65,9 @@
                             <a href="#">我的订单</a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="iconfont icon-gouwuchekong" style="margin:0 8px"></i>购物车(0)</a>
+                            <a href="html/cart.html">
+                                <i class="iconfont icon-gouwuchekong" style="margin:0 8px"></i>购物车(
+                                <span class="sumCount">0</span>)</a>
                         </li>
                     </ul>
                 </div>
@@ -486,8 +487,8 @@
                         <img src="images/img_not_logged_in.png" alt="">
                         <div>
                             <p>欢迎来到华为商城，请
-                                <a href="#">登录</a>还没账号？
-                                <a href="#">注册</a> 即可享受&emsp;>
+                                <a href="html/login.html">登录</a>还没账号？
+                                <a href="html/register.html">注册</a> 即可享受&emsp;>
                             </p>
                             <span>新人福利</span>
                             <span>会员频道</span>
@@ -611,7 +612,7 @@
                     <h2>热销单品</h2>
                     <div>
                         <div>
-                            <a href="#">
+                            <a href="html/goodsdetails.html?goodId=phone17">
                                 <img src="images/rexiaodanpin1.png" alt="">
                             </a>
                         </div>
@@ -1364,7 +1365,9 @@
         <div class="login_bottom">
             <p>账号登录</p>
             <p class="login_error">
-                <i></i>帐号或密码错误，请重新输入。</p>
+                <i></i>
+                <span class="errorInfo">帐号或密码错误，请重新输入。</span>
+            </p>
             <input type="text" id="uname" placeholder="用户名">
             <input type="password" id="upwd" placeholder="密码">
             <button class="login_in">登录</button>
@@ -1374,6 +1377,7 @@
             </div>
         </div>
     </div>
+    <div id="url" style="display: none">php/login.php</div>
 </body>
 <script src="js/jquery.min.js"></script>
 <script src="js/index.js"></script>

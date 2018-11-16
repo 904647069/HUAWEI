@@ -68,7 +68,6 @@
 }
 .header .shortcut .shortcut_ul li:first-child, .header .shortcut .shortcut_ul li:nth-child(2) {
   padding-left: 0;
-  width: 72px;
 }
 .header .shortcut .shortcut_ul li:first-child:before, .header .shortcut .shortcut_ul li:nth-child(2):before {
   display: none;
@@ -343,6 +342,10 @@
   width: 70px;
 }
 
+.login_box {
+  visibility: hidden;
+}
+
 .login_mask {
   height: 100%;
   width: 100%;
@@ -357,7 +360,6 @@
 }
 
 .login {
-  visibility: visible;
   position: fixed;
   top: 100px;
   left: 509.5px;
@@ -438,4 +440,10 @@
   font-size: 12px;
   color: #0064cc;
   margin: 0 10px;
+}
+
+.sumCount {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
 }

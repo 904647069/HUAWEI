@@ -1,0 +1,315 @@
+.line {
+  height: 10px;
+  background: #f0f0f0;
+}
+
+.main {
+  width: 100%;
+  display: inline-block;
+  padding-top: 50px;
+}
+.main .showGoods {
+  position: relative;
+  float: left;
+  width: 450px;
+  height: 536px;
+}
+.main .showGoods .smallImg {
+  height: 450px;
+  width: 450px;
+  position: relative;
+  overflow: hidden;
+}
+.main .showGoods .smallImg img {
+  height: 450px;
+  width: 450px;
+}
+.main .showGoods .smallImg .mask {
+  display: none;
+  position: absolute;
+  height: 225px;
+  width: 225px;
+  border: 1px solid #888;
+  cursor: move;
+  top: 0;
+  left: 0;
+  background: #fff;
+  opacity: 0.5;
+  z-index: 10;
+}
+.main .showGoods .bigImg {
+  display: none;
+  top: 0;
+  left: 460px;
+  border: 2px solid #ccc;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+  background: #fff;
+}
+.main .showGoods .bigImg img {
+  position: absolute;
+}
+.main .showGoods .goodsNav {
+  position: relative;
+  margin: 0 auto;
+  width: 370px;
+  height: 68px;
+}
+.main .showGoods .goodsNav a {
+  position: absolute;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+  color: #ccc;
+  top: 19px;
+  cursor: pointer;
+}
+.main .showGoods .goodsNav a:hover {
+  background: #f0f0f0;
+}
+.main .showGoods .goodsNav .goodshow {
+  overflow: hidden;
+  position: relative;
+  height: 68px;
+}
+.main .showGoods .goodsNav .goodshow ul {
+  position: absolute;
+  display: inline-block;
+  width: 444px;
+  left: 0;
+  top: 0;
+}
+.main .showGoods .goodsNav .goodshow ul li {
+  cursor: pointer;
+  float: left;
+  height: 66px;
+  width: 68px;
+  padding: 0 2px;
+  border: 1px solid #fff;
+}
+.main .showGoods .goodsNav .goodshow ul li img {
+  height: 60px;
+  width: 60px;
+  margin: 3px 0 0 3px;
+}
+.main .showGoods .goodsNav .goodshow ul .selected {
+  border: 1px solid #ca151d;
+}
+.main .selectGoods {
+  float: left;
+  width: 700px;
+  padding-left: 50px;
+}
+.main .selectGoods .goodTitle {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+.main .selectGoods .youhui {
+  display: inline-block;
+  color: #ca141d;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 45px;
+  margin-bottom: 15px;
+}
+.main .selectGoods .goodsInfo {
+  background: #f5f5f5;
+  padding-top: 14px;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.main .selectGoods .goodsInfo div {
+  margin-bottom: 15px;
+  height: 24px;
+  line-height: 24px;
+}
+.main .selectGoods .goodsInfo .goodsPrice .price {
+  margin-left: 20px;
+  color: #ca141d;
+  font-size: 24px;
+}
+.main .selectGoods .goodsInfo .youhuijuan .ticket {
+  display: inline-block;
+  line-height: 20px;
+  font-size: 12px;
+  background: #ef5a62;
+  color: white;
+  position: relative;
+  margin: 0 10px;
+}
+.main .selectGoods .goodsInfo .youhuijuan .ticket:nth-child(1) {
+  margin-left: 25px;
+}
+.main .selectGoods .goodsInfo .youhuijuan .ticket::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  background: url(../images/icon50.png);
+  background-position: -27px 0;
+}
+.main .selectGoods .goodsInfo .youhuijuan .ticket::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: -5px;
+  background: url(../images/icon50.png);
+  background-position: -32px 0;
+}
+.main .selectGoods .goodsInfo .youhuijuan a {
+  font-size: 12px;
+  color: #ca141d;
+  line-height: 20px;
+}
+.main .selectGoods .goodsInfo .zengpin {
+  height: auto;
+}
+.main .selectGoods .goodsInfo .zengpin div {
+  height: auto;
+  display: inline-block;
+  vertical-align: text-top;
+  margin-left: 20px;
+  margin-top: -5px;
+}
+.main .selectGoods .goodsInfo .zengpin div p {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+}
+.main .selectGoods .goodsInfo .zengpin div p img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+.main .selectGoods .goodsInfo .zengpin div p a {
+  color: #888;
+  margin-left: 10px;
+}
+.main .selectGoods .goodsInfo .zengpin div p span {
+  border: 1px solid #ca141d;
+  padding: 0 5px;
+  color: #ca141d;
+  margin-right: 10px;
+}
+.main .selectGoods .shuoming {
+  padding-left: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+.main .selectGoods .shuoming p {
+  font-size: 12px;
+  line-height: 30px;
+}
+.main .selectGoods .shuoming p span:first-child {
+  display: inline-block;
+  width: 85px;
+}
+.main .selectGoods .shuoming p i {
+  margin: 0 20px;
+  color: #ccc;
+}
+.main .selectGoods .selectColor {
+  margin-top: 20px;
+  overflow: hidden;
+  line-height: 40px;
+}
+.main .selectGoods .selectColor > span {
+  float: left;
+}
+.main .selectGoods .selectColor ul {
+  float: left;
+  margin-left: 20px;
+}
+.main .selectGoods .selectColor ul .selected {
+  border: 1px solid #ca141d;
+}
+.main .selectGoods .selectColor ul li {
+  border: 1px solid #ccc;
+  float: left;
+  height: 40px;
+  width: 98px;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.main .selectGoods .selectColor ul li img {
+  margin: 5px 5px 5px 12px;
+  height: 30px;
+  width: 30px;
+}
+.main .selectGoods .selectColor ul li span {
+  font-size: 12px;
+  line-height: 30px;
+}
+.main .selectGoods .addCart {
+  margin-top: 30px;
+  overflow: hidden;
+}
+.main .selectGoods .addCart .selectCount {
+  float: left;
+  height: 46px;
+  width: 65px;
+  border: 1px solid #d6d6d6;
+}
+.main .selectGoods .addCart .selectCount .count {
+  float: left;
+  height: 44px;
+  width: 42px;
+  border-right: 1px solid #d6d6d6;
+  text-align: center;
+  font-size: 18px;
+}
+.main .selectGoods .addCart .selectCount .tips {
+  float: left;
+  width: 21px;
+  height: 100%;
+}
+.main .selectGoods .addCart .selectCount .tips span {
+  display: inline-block;
+  height: 22px;
+  width: 21px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.main .selectGoods .addCart .selectCount .tips span:first-child {
+  border-bottom: 1px solid #d6d6d6;
+}
+.main .selectGoods .addCart .buyBtn {
+  float: left;
+  display: inline-block;
+  height: 46px;
+  width: 172px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main .selectGoods .addCart .buyBtn:hover {
+  opacity: 0.8;
+}
+.main .selectGoods .addCart .addCartBtn {
+  background: #fc600c;
+  margin: 0 10px;
+}
+.main .selectGoods .addCart .rightNow {
+  background: #ca151d;
+}

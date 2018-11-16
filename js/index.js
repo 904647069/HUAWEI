@@ -109,7 +109,7 @@ $(function () {
                     if (it.class) {
                         if (isNaN(it.price)) {
                             var li = `<li class="main_goods_hinder">
-                        <a href="#">
+                        <a href="html/goodsdetails.html?goodsId=${it.id}">
                             <img src="images/${i}/${i}${n + 1}.png" alt="">
                             <div class="good_title">${it.title}</div>
                             <p class="good_desc">${it.desc}</p>
@@ -120,7 +120,7 @@ $(function () {
                         }
                         else {
                             var li = `<li class="main_goods_hinder">
-                        <a href="#">
+                        <a href="html/goodsdetails.html?goodsId=${it.id}">
                             <img src="images/${i}/${i}${n + 1}.png" alt="">
                             <div class="good_title">${it.title}</div>
                             <p class="good_desc">${it.desc}</p>
@@ -133,7 +133,7 @@ $(function () {
                     }
                     else {
                         var li = `<li class="main_goods_hinder">
-                        <a href="#">
+                        <a href="html/goodsdetails.html?goodsId=${it.id}">
                             <img src="images/${i}/${i}${n + 1}.png" alt="">
                             <div class="good_title">${it.title}</div>
                             <p class="good_desc">${it.desc}</p>
@@ -145,7 +145,7 @@ $(function () {
                 }
                 else {
                     var li = `<li class="main_goods_first">
-                        <a href="#">
+                        <a href="html/goodsdetails.html?goodsId=${it.id}">
                             <img src="images/${i}/${i}${n + 1}.png" alt="">
                             </a>
                     </li>`
